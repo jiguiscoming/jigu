@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    cursor: pointer;
+}
+
+h3{
+    text-align: start;
+}
+
+img{
+    width: 300px;
+    white-space: normal;
+    align-content: flex-start;
+}
