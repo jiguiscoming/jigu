@@ -1,0 +1,30 @@
+#titleBar{
+    width: 100%;
+    text-align: center;
+}
+
+#titleBar a {
+    text-decoration: none;
+    font-size: 30pt ;
+    cursor: pointer;
+    width: 100%;
+    color: rgb(0, 0, 0);
+
+}
+
+
+#story{
+    border: 1;
+}
+#story a{
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#story img{
+    width: 300px;
+    white-space: normal;
+    align-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
