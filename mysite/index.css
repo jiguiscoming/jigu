@@ -1,0 +1,82 @@
+#siteTbl{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: rgb(233, 221, 153);
+
+}
+
+#siteTbl a{
+    text-decoration: none;
+}
+
+#siteTbl a:hover{
+    text-decoration: none;
+    color: rgb(156, 136, 32);
+}
+
+#siteMenuTbl{
+    margin-top: 23px;
+    width: 100%;
+    height: 50px;
+
+}
+
+td{
+    text-align: center;
+}
+
+#contentTbl{
+    border: 5px solid rgb(223, 183, 25);
+    width: 100%;
+    height: 600px;
+    background-color: rgb(244, 244, 233);
+}
+
+#titleImg{
+    width: 300px;
+    border-radius: 100px;
+    box-shadow: 15px 15px 50px rgb(215, 195, 128);
+}
+
+.menuClass{
+    color: rgb(70, 74, 70);
+    text-decoration: none;
+}
+
+.menuClass:link{
+    color: darkorange;
+}
+
+.menuClass:visited{
+    color: rgb(174, 124, 58);
+}
+
+.menuClass:hover{
+    font-size: 18pt;
+    transition: font-size 0.3s ease-in;
+}
+
+#joinTbl{
+    border: 3px solid rgb(223, 183, 25);
+    width: 400px;
+    height: 500px;
+    background-color: rgb(246, 243, 199);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loginTbl{
+    border: 3px solid rgb(223, 183, 25);
+    width: 350px;
+    height: 300px;
+    background-color: rgb(246, 243, 199);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#ageTbl{
+    margin-left: auto;
+    margin-right: auto;
+}
