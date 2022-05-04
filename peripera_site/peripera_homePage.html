@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peripera</title>
+    <link rel="stylesheet" href="homePage.css">
+</head>
+
+<body>
+    <table id="languageTbl">
+        <tr>
+            <td class="languageTbl_td1"></td>
+            <td class="languageTbl_td1">KOR</td>
+            <td class="languageTbl_td1">ENG</td>
+            <td class="languageTbl_td1">CHN</td>
+            <td></td>
+        </tr>
+    </table>
+
+    <table id="titleTbl">
+        <tr>
+            <td class="titleTbl_td1">SHOPPING</td>
+            <td class="titleTbl_td1">BRAND</td>
+            <td class="titleTbl_td1">PRODUCT</td>
+            <td class="titleTbl_td1">MEDIA</td>
+            <td class="titleTbl_td2" colspan="2">PERIPERA</td>
+            <td class="titleTbl_input"><input placeholder="검색어를 입력해주세요"></td>
+        </tr>
+    </table>
+
+    <table border="1" id="containerImg">
+        <tr>
+            <td colspan="4">
+                <div class="containerImg_div">
+                    <div class="mySlides fade">
+                        <img src="https://img.clubclio.co.kr/uploadFolder/WT_BANNER/XKNQYWCLR58KAZ19G0N2.jpg" alt="">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="https://img.clubclio.co.kr/uploadFolder/WT_BANNER/BA3FCQIM222PIIGCDFU8.jpg" alt="">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="https://img.clubclio.co.kr/uploadFolder/WT_BANNER/FC9CHV87KB8E1I7LMGWR.jpg" alt="">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="https://img.clubclio.co.kr/uploadFolder/WT_BANNER/INUZEA6Y2XJIQ4PEA9FO.jpg" alt="">
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <script src="auto_slide.js"></script>
+        <tr>
+            <script src="slide.js"></script>
+            <td class="containerImg_small"><button onclick="currentSlide(1)">1</button></td>
+            <td class="containerImg_small"><button onclick="currentSlide(2)">2</button></td>
+            <td class="containerImg_small"><button onclick="currentSlide(3)">3</button></td>
+            <td class="containerImg_small"><button onclick="currentSlide(4)">4</button></td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
