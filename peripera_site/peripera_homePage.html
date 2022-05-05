@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peripera</title>
-    <link rel="stylesheet" href="homePage.css">
+    <link rel="stylesheet" href="peripera_homePage.css">
 </head>
 
 <body>
-    <table id="languageTbl">
+    <table  id="languageTbl">
         <tr>
+            <td class="languageTbl_td1"></td>
+            <td class="languageTbl_td1"></td>
             <td class="languageTbl_td1"></td>
             <td class="languageTbl_td1">KOR</td>
             <td class="languageTbl_td1">ENG</td>
@@ -22,6 +24,8 @@
 
     <table id="titleTbl">
         <tr>
+            <td class="titleTbl_td1"></td>
+            <td class="titleTbl_td1"></td>
             <td class="titleTbl_td1">SHOPPING</td>
             <td class="titleTbl_td1">BRAND</td>
             <td class="titleTbl_td1">PRODUCT</td>
@@ -31,34 +35,131 @@
         </tr>
     </table>
 
-    <table border="1" id="containerImg">
-        <tr>
-            <td colspan="4">
-                <div class="containerImg_div">
-                    <div class="mySlides fade">
-                        <img src="https://img.clubclio.co.kr/uploadFolder/WT_BANNER/XKNQYWCLR58KAZ19G0N2.jpg" alt="">
-                    </div>
-                    <div class="mySlides fade">
-                        <img src="https://img.clubclio.co.kr/uploadFolder/WT_BANNER/BA3FCQIM222PIIGCDFU8.jpg" alt="">
-                    </div>
-                    <div class="mySlides fade">
-                        <img src="https://img.clubclio.co.kr/uploadFolder/WT_BANNER/FC9CHV87KB8E1I7LMGWR.jpg" alt="">
-                    </div>
-                    <div class="mySlides fade">
-                        <img src="https://img.clubclio.co.kr/uploadFolder/WT_BANNER/INUZEA6Y2XJIQ4PEA9FO.jpg" alt="">
-                    </div>
-                </div>
+    <table border="1" id="containerTbl">
+        <tr id="slider">
+            <td>
+                <img src="https://img.clubclio.co.kr/uploadFolder/WT_BANNER/XKNQYWCLR58KAZ19G0N2.jpg" alt="">
+            </td>
+            <td>
+                <img src="https://img.clubclio.co.kr/uploadFolder/WT_BANNER/BA3FCQIM222PIIGCDFU8.jpg" alt="">
+            </td>
+            <td>
+                <img src="https://img.clubclio.co.kr/uploadFolder/WT_BANNER/FC9CHV87KB8E1I7LMGWR.jpg" alt="">
+            </td>
+            <td>
+                <img src="https://img.clubclio.co.kr/uploadFolder/WT_BANNER/INUZEA6Y2XJIQ4PEA9FO.jpg" alt="">
             </td>
         </tr>
-        <script src="auto_slide.js"></script>
+    </table>
+    <table border="1" id="buttonTbl">
+        <!-- <script src="peripera_auto_slide.js"></script> -->
         <tr>
-            <script src="slide.js"></script>
-            <td class="containerImg_small"><button onclick="currentSlide(1)">1</button></td>
-            <td class="containerImg_small"><button onclick="currentSlide(2)">2</button></td>
-            <td class="containerImg_small"><button onclick="currentSlide(3)">3</button></td>
-            <td class="containerImg_small"><button onclick="currentSlide(4)">4</button></td>
+            <!-- <script src="peripera_slide.js"></script> -->
+            <td class="button1"><button>1</button></td>
+            <td class="button2"><button>2</button></td>
+            <td class="button3"><button>3</button></td>
+            <td class="button4"><button>4</button></td>
         </tr>
     </table>
+    <script src="peripera_slide.js"></script>
+    
+        <table border="1" id="newNBestTbl">
+            <tr>
+                <td colspan="4" class="newNBestTbl_title">NEW&BEST</td>
+            </tr>
+            <tr>
+                <td><img src="https://img.clubclio.co.kr/uploadFolder/WT_PRODUCT/500/NX4XAU2M5M91TRIFJH5G.jpg" alt=""></td>
+                <td><img src="https://img.clubclio.co.kr/uploadFolder/WT_PRODUCT/500/YBZTJRBQXX0VWUHHDHKO.jpg" alt=""></td>
+                <td><img src="페리페라.png" alt=""></td>
+                <td><img src="https://img.clubclio.co.kr/uploadFolder/WT_PRODUCT/500/JB2XQ7PFETBEQHR2B1HJ.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td class="newNBestTbl_content">
+                    [오뚜기콜라보/한정컬러] 올테이크 무 ...<br>
+                    19,000원
+                </td>
+                <td class="newNBestTbl_content">
+                    [오뚜기콜라보/한정컬러] 잉크 무드 ... <br>
+                    10,000원
+                </td>
+                <td class="newNBestTbl_content">
+                    [오뚜기콜라보/한정패키지] 잉크 더 ... <br>
+                    9,000원
+                </td>
+                <td class="newNBestTbl_content">
+                    [오뚜기콜라보/한정기획] 잉크 브이쉐 ... <br>
+                    12,000원
+                </td>
+            </tr>
+        </table>
+        <table border="1" id="periMoodTbl">
+            <tr>
+                <td colspan="4" class="periMoodTbl_title">PERI MOOD</td>
+            </tr>
+            <tr>
+                <td><img src="https://www.periperacosmetic.com/ko/images/index/pc_campaign36_over.jpg" alt=""></td>
+                <td><img src="https://www.periperacosmetic.com/ko/images/index/pc_campaign35_over.jpg" alt=""></td>
+                <td><img src="https://www.periperacosmetic.com/ko/images/index/pc_campaign34_over.jpg" alt=""></td>
+                <td><img src="https://www.periperacosmetic.com/ko/images/index/pc_campaign33_over.jpg" alt=""></td>
+            </tr>
+        </table>
+
+        <table border="1" id="videoTbl">
+            <tr>
+                <td><img src="https://www.periperacosmetic.com/ko/images/index/pc_vod11.jpg"></video></td>
+            </tr>
+        </table>
+
+        <table border="1" id="snsTbl">
+            <tr>
+                <td class="snsTbl_title" colspan="5">PERIPERA SNS</td>
+            </tr>
+            <tr>
+                <td class="snsTbl_content"><img src="https://scontent-nrt1-1.cdninstagram.com/v/t51.29350-15/279741439_517811473252997_1247735245081371499_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=dv7NWjG6r6gAX9eOexr&_nc_ht=scontent-nrt1-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT9G4OVW4iTbetBslbyqSofo_83lQxULbNIAeaGL0x_6Dw&oe=62772D30" alt=""></td>
+                <td class="snsTbl_content"><img src="https://scontent-nrt1-1.cdninstagram.com/v/t51.29350-15/279585816_1511611369240577_8982183697004843754_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=mJwJ0De6QTwAX-mEYeD&_nc_ht=scontent-nrt1-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT_HJq2uX3QD_7GaCdX8-noT1en8Z6asjxcap5Pjxgshpg&oe=62768CF7" alt=""></td>
+                <td class="snsTbl_content"><img src="https://scontent-nrt1-1.cdninstagram.com/v/t51.29350-15/279386941_1123198891861447_4192920946025560698_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=0pL-lQJnJ4IAX-6RNly&_nc_ht=scontent-nrt1-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT8ZMEC6mwUOxyLHhTgOQke8-fLznA4npq2kbMqDGzXNGg&oe=6276FC89" alt=""></td>
+                <td class="snsTbl_content"><img src="https://scontent-nrt1-1.cdninstagram.com/v/t51.29350-15/279224874_1015787855810004_6215554372743673974_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=ThNwxxET2dkAX-fCVOf&_nc_ht=scontent-nrt1-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT9IjlXI-ZwV1xz6aP3yZVQ0Lv8jXARshB1Qv8WgDsR9HQ&oe=62768A27" alt=""></td>
+                <td class="snsTbl_content"><img src="https://scontent-nrt1-1.cdninstagram.com/v/t51.29350-15/279280909_441648771095518_6586504438186475491_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=kXl9y9IX0NAAX_mtsqV&_nc_ht=scontent-nrt1-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT9vsUj0xpBtazjI88SCU32cTO3Gcv4rFxbKKIkYJXZx4w&oe=62783326" alt=""></td>
+            </tr>
+            <tr>
+                <td class="snsTbl_content"><img src="https://scontent-nrt1-1.cdninstagram.com/v/t51.29350-15/279320603_582240912901579_349052217269847289_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=l7EFpWC8PaUAX8HSCh2&_nc_ht=scontent-nrt1-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT9sozlq1kKQdpIJfOtpay2my_dID2xUNPafcBGO6KVevQ&oe=6277E080" alt=""></td>
+                <td class="snsTbl_content"><img src="https://scontent-nrt1-1.cdninstagram.com/v/t51.29350-15/279270622_983412375647360_4028736020639514653_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=WyBVJosfl4EAX-ZCLHA&_nc_ht=scontent-nrt1-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT_8YHNqNhIpGFXaypN6j7QZUkuCU0VYnDf8db7kGWLT-w&oe=62770216" alt=""></td>
+                <td class="snsTbl_content"><img src="https://scontent-nrt1-1.cdninstagram.com/v/t51.29350-15/279142482_669232190820590_1521580672057693329_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=1tZfT4y3YaUAX8Dbvsa&_nc_ht=scontent-nrt1-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT_kDS7loUYSg2SvWrLbeTMPnnfocMELozv5VVT7spWvpw&oe=6276E9B7" alt=""></td>
+                <td class="snsTbl_content"><img src="https://scontent-nrt1-1.cdninstagram.com/v/t51.29350-15/279320424_2131202057042586_5307622570349114695_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=uAvCi7HhL_gAX_jIajS&_nc_ht=scontent-nrt1-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT9Apz8wnj7AZAh0VuVXDdJhEUU39FZoM3gh0YihNKlhqg&oe=62768E8B" alt=""></td>
+                <td class="snsTbl_content"><img src="https://scontent-nrt1-1.cdninstagram.com/v/t51.29350-15/279207666_1433225783777330_4854478391744459921_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=lPogGZ7iqGMAX-8q7We&_nc_oc=AQljnUXRWhBqBYTi7dLPdxOafXshbmfYYNJq4xCoB37MqFktScY8FrAJakB8cY8NwCU&_nc_ht=scontent-nrt1-1.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AT_2Ht4s-7Bf_TjEstEC_7olSTtR7CWkN2ksDPyYZOmrwQ&oe=62771D8E" alt=""></td>
+            </tr>
+        </table>
+
+        <table id="familySiteTbl">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="familySiteTbl_main">FAMILY SITE</td>
+                <td class="familySiteTbl_img"><img src="화살표.png" alt=""></td>
+                <td class="familySiteTbl_menu">(주)클리오 | 클럽클리오 | 클리오 | 구달 | 힐링버드 | 더마토리 | 트루알엑스</td>
+                <td></td>
+            </tr>
+        </table>
+
+        <table id="infoTbl">
+            <tr>
+                <td></td>
+                <td class="infoTbl_name">PERIPERA</td>
+                <td class="infoTbl_addr">서울특별시 성동구 왕십리로 66 (주)클리오 / 대표이사 : 한현옥
+                    <br>
+                    COPYRIGHTS(C) 2016 CLUBCLIO.CO.LTD. ALL RIGHTS RESERVED.</td>
+                <td></td>
+                <td class="infoTbl_call">
+                    <span class="infoTbl_call_1">고객상담실</span> <span class="infoTbl_call_1_color">080-080-1510</span><br>
+                    <span class="infoTbl_call_2">상담안내시간 월~금 09:00~17:00</span><br>  
+                    <span class="infoTbl_call_2"> LUNCH 12:30~13:30 (토/일/공휴일 휴무)</span>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+
 
 
 </body>
