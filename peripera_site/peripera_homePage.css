@@ -2,18 +2,21 @@ body{
     /*여백 지우기*/
     margin: 0px;
     padding: 0px;
-    background-color: white;
+    
+    background-color: #fff;
     overflow-x: hidden;
+    letter-spacing: -0.05em
 }
 
 #languageTbl{
    border-spacing: 0px;
     width: 100%;
-    background-color: rgb(224, 146, 185);
+    background-color: #f49bba;
     font-size: 10pt;
     color: white;
     font-weight: 900;
     height: 30px;
+    font-family: 'Nanum Gothic';
 }
 
 .languageTbl_td1{
@@ -31,7 +34,7 @@ text-align: center;
     text-align: center;
     font-size: 13pt;
     font-weight: 900;
-    color: rgb(83, 82, 82);
+    color: #4a4a4a;
 }
 
 
@@ -44,8 +47,8 @@ text-align: center;
 }
 
 input{
-    width: 180px;
-    height: 30px;
+    width: 195px;
+    height: 40px;
     background-color: rgb(239, 239, 239);
     background-image: url(search.png);
     background-position: 5px;
@@ -55,8 +58,9 @@ input{
     padding-top: 5px;
     border-radius: 30px;
     border: none;
-    font-size: 9pt;
+    font-size: 10pt;
     font-weight: 500;
+    color: #a1a1a1;
 }
 
 .titleTbl_input{
@@ -64,37 +68,51 @@ input{
 }
 
 #containerTbl{
-    width: 1680px;
+    width: 1600px;
+height: 600px;
+}
+
+#containerTbl img{
+    width: auto;
+    height: 600px;
+    object-fit: over;
+    margin-left: -130px;
 }
 
 #slider{
-    width: 6720px;
     transition: transform 0.5s;
 }
 
-#slider img{
-    width: 1680px;
-}
-
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
 
 #buttonTbl{
-    width: 120px;
+    width: 155px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #buttonTbl button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
     width: 30px;
     height: 30px;
 }
 
-
-
-
-
-
-
-
+#buttonTbl img{
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+}
 
   #newNBestTbl{
       width: 1200px;
@@ -105,9 +123,11 @@ input{
   }
 
   .newNBestTbl_title{
-      font-size: 18pt;
+      font-size: 13pt;
       font-weight: 600;
-      text-decoration: underline ;
+      font-family: 'Apple-Gothic';
+      text-decoration: underline;
+      text-underline-position: under;
       padding-bottom: 20px;
   }
   
@@ -125,6 +145,10 @@ input{
       font-weight: 500;
   }
 
+  .newNBestTbl_content:hover{
+      cursor: pointer;
+  } 
+
   #periMoodTbl{
       width: 1500px;
       text-align: center;
@@ -134,9 +158,10 @@ margin-top: 200px;
   }
 
   .periMoodTbl_title{
-      font-size: 18pt;
-      font-weight: 600;
+      font-size: 13pt;
+      font-weight: 400;
       text-decoration: underline;
+      text-underline-position: under;
       padding-bottom: 20px;
   }
 
@@ -144,10 +169,17 @@ margin-top: 200px;
       width: 350px;
   }
 
-  #videoTbl{
+  #periMoodTbl img:hover{
+      cursor: pointer;
+  }
 
+  #videoTbl{
+    margin-top: 100px;
       margin-left: auto;
       margin-right: auto;
+  }
+  #videoTbl img:hover{
+      cursor: pointer;
   }
 
   #snsTbl{
@@ -162,6 +194,7 @@ margin-top: 200px;
         font-size: 18pt;
         font-weight: 600;
         text-decoration: underline;
+        text-underline-position: under;
         height: 80px;
         padding-top: 100px;
     }
@@ -180,6 +213,7 @@ margin-top: 200px;
   }
 
   #familySiteTbl{
+    color: #5f5f5f;
       width: 1680px;
       height: 50px;
       background-color: #ddd;
@@ -190,26 +224,27 @@ margin-top: 200px;
     font-size: 10pt;
     letter-spacing: 1px;
     font-weight: 600;
+    padding-left: 10px;
 }
 
 .familySiteTbl_img{
-    width: 30px;
+    width: 15px;
+}
+
+#familySiteTbl img{
+    width: 13px;
 }
 
   .familySiteTbl_menu{
-      width: 450px;
-    font-size: 10pt;
+      width: 460px;
+    font-size: 10.5pt;
     text-align: right;
     padding-right: 30px;
     }
     
-    #familySiteTbl img{
-        width: 13px;
-        margin-left: 5px;
-        padding-right: 30px;
-    }
 
 #infoTbl{
+    color: #5c5c5c;
     width: 1680px;
     height: 80px;
     background-color: #fff;
@@ -220,6 +255,10 @@ margin-top: 200px;
     font-size: 20pt;
     font-weight: 600;
     font-style: italic;
+}
+
+.infoTbl_name img{
+    width: 130px;
 }
 
 .infoTbl_addr{
