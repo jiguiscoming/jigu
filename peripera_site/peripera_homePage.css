@@ -12,16 +12,23 @@ body{
    border-spacing: 0px;
     width: 100%;
     background-color: #f49bba;
-    font-size: 10pt;
-    color: white;
-    font-weight: 900;
     height: 30px;
-    font-family: 'Nanum Gothic';
 }
 
 .languageTbl_td1{
-width: 80px;
-text-align: center;
+    width: 80px;
+    text-align: center;
+}
+#languageTbl a{
+    color: white;
+    font-size: 10pt;
+    font-weight: 900;
+    font-family: 'Nanum Gothic';
+    text-decoration: none;
+}
+
+#languageTbl a:hover{
+ cursor: pointer;
 }
 
 #titleTbl{
@@ -32,9 +39,15 @@ text-align: center;
 .titleTbl_td1{
     width: 110px;
     text-align: center;
+}
+
+
+#titleTbl a{
+    color: #4a4a4a;
     font-size: 13pt;
     font-weight: 900;
-    color: #4a4a4a;
+    text-decoration: none;
+    
 }
 
 
