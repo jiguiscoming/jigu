@@ -158,8 +158,17 @@ height: 600px;
       font-weight: 500;
   }
 
-  .newNBestTbl_content:hover{
+  .newNBestTbl_content a{
+      text-decoration: none;
+  }
+
+  .newNBestTbl_content a:visited{
+      color: black;
+  }
+
+  .newNBestTbl_content a:hover{
       cursor: pointer;
+      
   } 
 
   #periMoodTbl{
